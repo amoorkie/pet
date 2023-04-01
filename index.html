@@ -1,0 +1,161 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой сервис для питомцев</title>
+    <link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+    <!-- Хедер -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">Питомцы</a></li>
+                <li><a href="#">Заводчики</a></li>
+                <li><a href="#">Отзывы</a></li>
+            </ul>
+        </nav>
+        <a href="#">Войти</a>
+        <img src="logo.png" alt="Логотип">
+    </header>
+
+    <!-- Первый экран -->
+    <section id="hero">
+        <h1>Лучший сервис для владельцев питомцев</h1>
+        <p>Выбирайте и покупайте питомцев с удобством в нашем сервисе</p>
+        <button>Выбрать питомца</button>
+        <img src="pet.png" alt="Картинка питомца">
+    </section>
+
+    <!-- Блок с питомцами -->
+    <section id="pets">
+        <h2>Питомцы в вашем городе</h2>
+        <div class="pet-card">
+            <img src="pet1.jpg" alt="Картинка питомца">
+            <h3>Британский кот</h3>
+            <p>Цена: 15000 руб.</p>
+        </div>
+        <div class="pet-card">
+            <img src="pet2.jpg" alt="Картинка питомца">
+            <h3>Такса</h3>
+            <p>Цена: 20000 руб.</p>
+        </div>
+        <div class="pet-card">
+            <img src="pet3.jpg" alt="Картинка питомца">
+            <h3>Бульдог</h3>
+            <p>Цена: 25000 руб.</p>
+        </div>
+    </section>
+
+    <!-- Блок "Отзывы" -->
+    <section class="reviews">
+        <h2>Отзывы</h2>
+        <div class="review-card">
+            <img src="img/review1.jpg" alt="Фото автора отзыва">
+            <div class="review-text">
+                <h3>Иван Петров</h3>
+                <p>Благодарю компанию за отличный сервис! Мы приобрели здесь своего первого котенка, и все прошло гладко и без проблем. Котенок здоровый и счастливый, и мы очень довольны своей покупкой. Рекомендую всем этот сервис!</p>
+            </div>
+        </div>
+        <div class="review-card">
+            <img src="img/review2.jpg" alt="Фото автора отзыва">
+            <div class="review-text">
+                <h3>Елена Сидорова</h3>
+                <p>Я очень довольна своим новым щенком, которого приобрела через этот сайт. Здесь я нашла именно ту породу, которую искала, и качество сервиса превзошло все мои ожидания. Спасибо большое!</p>
+            </div>
+        </div>
+        <div class="review-card">
+            <img src="img/review3.jpg" alt="Фото автора отзыва">
+            <div class="review-text">
+                <h3>Алексей Иванов</h3>
+                <p>Здесь я нашел свою мечту – чудесного питомца, который стал лучшим другом для меня и моей семьи. Очень благодарен компании за качественный сервис и заботу о своих клиентах.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Блок "Лучшие заводчики" -->
+    <section id="best-breeders">
+        <div class="container">
+            <h2>Лучшие заводчики</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Фото заводчика">
+                        <div class="card-body">
+                            <h5 class="card-title">Имя заводчика</h5>
+                            <p class="card-text">Рейтинг: 4.8</p>
+                            <p class="card-text">Продаются породы:</p>
+                            <ul>
+                                <li>Порода 1</li>
+                                <li>Порода 2</li>
+                                <li>Порода 3</li>
+                            </ul>
+                            <a href="#" class="btn btn-primary">Посмотреть предложения</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Фото заводчика">
+                        <div class="card-body">
+                            <h5 class="card-title">Имя заводчика</h5>
+                            <p class="card-text">Рейтинг: 4.5</p>
+                            <p class="card-text">Продаются породы:</p>
+                            <ul>
+                                <li>Порода 1</li>
+                                <li>Порода 2</li>
+                            </ul>
+                            <a href="#" class="btn btn-primary">Посмотреть предложения</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Фото заводчика">
+                        <div class="card-body">
+                            <h5 class="card-title">Имя заводчика</h5>
+                            <p class="card-text">Рейтинг: 4.2</p>
+                            <p class="card-text">Продаются породы:</p>
+                            <ul>
+                                <li>Порода 1</li>
+                                <li>Порода 2</li>
+                                <li>Порода 3</li>
+                            </ul>
+                            <a href="#" class="btn btn-primary">Посмотреть предложения</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Блок "Футер" -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h4>Навигация</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Главная</a></li>
+                        <li><a href="#">Питомцы</a></li>
+                        <li><a href="#">Заводчики</a></li>
+                        <li><a href="#">Отзывы</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h4>Контакты</h4>
+                    <ul class="list-unstyled">
+                        <li>Адрес: г. Москва, ул. Пушкина, д. Колотушкина</li>
+                        <li>Телефон: +7 (123) 456-78-90</li>
+                        <li>E-mail: info@mypets.com</li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h4>Копирайт</h4>
+                    <p>&copy; 2023 MyPets. Все права защищены.</p>
+                </div>
+            </div>
+        </div>
+    </footer>

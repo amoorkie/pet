@@ -1,0 +1,131 @@
+﻿/* Styles for header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 16px 40px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.header-nav {
+    display: flex;
+    gap: 24px;
+}
+
+    .header-nav a {
+        font-size: 18px;
+        color: #333;
+        text-decoration: none;
+        transition: all 0.2s ease-in-out;
+    }
+
+        .header-nav a:hover {
+            color: #ff6f61;
+        }
+
+/* Styles for hero section */
+.hero {
+    background-image: url("https://images.unsplash.com/photo-1547496503-d8f1d2afcd1b");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+
+    .hero h1 {
+        font-size: 64px;
+        margin-bottom: 24px;
+    }
+
+    .hero p {
+        font-size: 24px;
+    }
+
+/* Styles for features section */
+.features {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 40px;
+    background-color: #fff;
+}
+
+.feature {
+    width: 30%;
+    text-align: center;
+}
+
+    .feature img {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        border-radius: 50%;
+        margin-bottom: 16px;
+    }
+
+    .feature h2 {
+        font-size: 24px;
+        margin-bottom: 16px;
+    }
+
+    .feature p {
+        font-size: 18px;
+        color: #999;
+    }
+
+/* Styles for footer */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 24px 40px;
+    font-size: 16px;
+}
+
+.footer-nav {
+    display: flex;
+    gap: 24px;
+}
+
+    .footer-nav a {
+        color: #fff;
+        text-decoration: none;
+        transition: all 0.2s ease-in-out;
+    }
+
+        .footer-nav a:hover {
+            color: #ff6f61;
+        }
+
+.footer-social {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+    .footer-social a {
+        color: #fff;
+        text-decoration: none;
+        transition: all 0.2s ease-in-out;
+    }
+
+        .footer-social a:hover {
+            color: #ff6f61;
+        }
+
+    .footer-social i {
+        font-size: 24px;
+    }
